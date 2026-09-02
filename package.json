@@ -20,6 +20,6 @@
     "node": ">=20"
   },
   "overrides": {
-    "@utoo/pack": "1.5.13"
+    "@utoo/pack": "1.5.14-alpha.1"
   }
 }
