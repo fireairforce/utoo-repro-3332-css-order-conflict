@@ -1,0 +1,25 @@
+{
+  "name": "repro-3332-css-order-conflict",
+  "private": true,
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "4.7.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "@utoo/pack": "1.5.13"
+  }
+}
